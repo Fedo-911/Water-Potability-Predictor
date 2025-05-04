@@ -1,4 +1,4 @@
- # CODE FOR Water Potability Predictor
+  # CODE FOR Water Potability Predictor
 import streamlit as st
 import joblib
 # import numpy as np
