@@ -36,7 +36,7 @@ You can install the dependencies using:
 pip install streamlit joblib pandas
 
 
-📁 Files
+## 📁 Files
 app.py – Main Streamlit app
 
 RandomForest – Pre-trained model file (should be in the same directory)
@@ -44,12 +44,12 @@ RandomForest – Pre-trained model file (should be in the same directory)
 README.md – Project documentation
 
 
-▶️ How to Run
+## ▶️ How to Run
 To run the app locally:
 streamlit run app.py
 Then open your browser and go to http://localhost:8501
 
-🧠 Model Information
+## 🧠 Model Information
 Model Type: Random Forest Classifier
 
 Trained using water quality dataset with labeled potability
@@ -58,7 +58,7 @@ Outputs: 0 (Not Potable) or 1 (Potable)
 
 Also provides a probability/confidence score
 
-📌 Notes
+## 📌 Notes
 Ensure that the RandomForest model file exists and is correctly serialized via joblib.
 
 For deployment (e.g., Streamlit Cloud), make sure to include all necessary files and optionally a requirements.txt.
