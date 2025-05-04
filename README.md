@@ -14,7 +14,7 @@ This is a simple and interactive Streamlit web application that predicts the **p
 
 The model uses the following water quality features as input:
 
-- ph – Acidity/alkalinity of water
+- ph  – Acidity/alkalinity of water
 - Hardness – Concentration of calcium and magnesium
 - Solids – Total dissolved solids (TDS)
 - Chloramines – Concentration of disinfectants
@@ -46,7 +46,9 @@ README.md – Project documentation
 
 ## ▶️ How to Run
 To run the app locally:
+
 streamlit run app.py
+
 Then open your browser and go to http://localhost:8501
 
 ## 🧠 Model Information
